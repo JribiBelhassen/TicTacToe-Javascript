@@ -1,0 +1,78 @@
+.casevide{
+    background-color: #adadad;
+    height: 70px;
+    width: 70px;
+    border: solid 3px black;
+    color: white;
+    font-size: xx-large;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.centerText{
+    margin-top: 80px;
+    font-weight: bolder;
+}
+.center{
+    margin-left: 42%;
+    margin-top: 50px;
+}
+
+.perdu{
+    background-color: #ce8483;
+    color: darkred;
+    font-size: large;
+    width: 185px;
+    padding: 6px;
+    margin-top: 11px;
+    margin-bottom: 5px;
+    border: solid darkred 2px;
+    border-radius: 5px;
+    text-shadow: 1px 1px #8c8c8c;
+}
+
+.perduBouton{
+    color: darkred;
+    font-size: large;
+    width: 185px;
+    padding: 6px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.nul{
+    background-color: #f5e79e;
+    color: black;
+    font-size: large;
+    width: 110px;
+    padding: 6px;
+    margin-top: 11px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    border: solid darkgoldenrod 2px;
+    border-radius: 5px;
+    text-shadow: 1px 1px #8c8c8c;
+}
+
+.nulBouton{
+    color: black;
+    font-size: large;
+    width: 110px;
+    padding: 6px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+.time{
+    background-color: #c4e3f3;
+    color: #204d74;
+    text-align: center;
+    font-size: large;
+    width: 280px;
+    padding: 6px;
+    margin-top: 11px;
+    margin-left: -50px;
+    border: solid #204d74 2px;
+    border-radius: 5px;
+    text-shadow: 1px 1px #8c8c8c;
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe -- Jribi Belhassen & Charbagi Med Haythem</title>
+    <script src="LogiqueDuJeu.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/bootstrap-theme.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center centerText">Tic Tac Toe</h2>
+        <div class="center">
+            <div class="row">
+                <div id="00" class="col-md-1 casevide" onclick="ajouterX(0,0)"></div>
+                <div id="01" class="col-md-1 casevide" onclick="ajouterX(0,1)"></div>
+                <div id="02" class="col-md-1 casevide" onclick="ajouterX(0,2)"></div>
+            </div>
+            <div class="row">
+                <div id="10" class="col-md-1 casevide" onclick="ajouterX(1,0)"></div>
+                <div id="11" class="col-md-1 casevide" onclick="ajouterX(1,1)"></div>
+                <div id="12" class="col-md-1 casevide" onclick="ajouterX(1,2)"></div>
+            </div>
+            <div class="row">
+                <div id="20" class="col-md-1 casevide" onclick="ajouterX(2,0)"></div>
+                <div id="21" class="col-md-1 casevide" onclick="ajouterX(2,1)"></div>
+                <div id="22" class="col-md-1 casevide" onclick="ajouterX(2,2)"></div>
+            </div>
+            <div id="time" class ="hidden"></div>
+            <div id="resultat" class="hidden">Ordinateur a gangne</div>
+            <div id="divBouton" class="hidden">
+                <button id="rejouer" class="hidden" onclick="window.location.reload()">Rejouer</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
